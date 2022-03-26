@@ -12,7 +12,9 @@ on:
     branches: [ testbranch1 ]
   pull_request:
     branches: [ testbranch1 ]
-
+defaults:
+ run:
+  working-directory: ./complete
 jobs:
   build:
 
