@@ -29,3 +29,9 @@ jobs:
       with:
        arguments: build
        build-root-directory: /home/runner/work/gs-gradle/gs-gradle/complete
+    - name: Report Upload
+      uses: actions/upload-artifact@v3
+      with:
+       name: my-artifact
+       path: /home/runner/work/gs-gradle/gs-gradle/complete/build/reports/tests/test
+   
