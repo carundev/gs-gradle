@@ -30,6 +30,6 @@ jobs:
       uses: gradle/gradle-build-action@v2
       with:
        arguments: build
-       gradle-executable: /path/to/installed/gradle
+       gradle-executable: /home/runner/work/gs-gradle/gs-gradle/complete
 
       
